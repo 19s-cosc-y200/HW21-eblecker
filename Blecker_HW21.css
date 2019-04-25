@@ -1,0 +1,44 @@
+/*Write the CSS for a class that is relatively positioned. 
+This class should appear 15 ­pixels in from the left. 
+Configure the class to have a light green background.*/
+
+
+.hw21q1
+{
+    position: relative;
+    left: 15px;
+    background-color: lightgreen;
+}
+
+/*
+Write the CSS for an id with the following characteristics: 
+fixed position, light gray background color, 
+bold font weight,and 10 pixels of padding.
+*/
+
+#hw21q2
+{
+    position: fixed;
+    background-color: lightgray;
+    font-weight: bold;
+    padding: 10px 10px 10px 10px;
+}
+
+/*
+Write the CSS to configure an image file named myimage.gif 
+as the list marker in an unordered list.*/
+
+ul
+{
+    list-style-image: url("myimage.gif"); 
+}
+
+
+/*
+Write the CSS to configure an unordered list to display 
+a square list marker.*/
+
+ul
+{
+    list-style-type: square;
+}
